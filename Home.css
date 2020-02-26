@@ -61,17 +61,44 @@ background-color:blue;
 border: 1px solid black;
 color:white;
 }
-p{
+#US{
 position:absolute;
 width: 80%;
 height: 90%;
 left: 10%;
 top:30%;
+
+}
+.about{ 
+background-color: black;
+color: Black;
+margin: 20 px;
+padding: 20 px;
 background-color: red;
 background: linear-gradient(100deg,
 rgba(255,255,255,0)0%,
 rgba(255,255,255,0.2)25%,
 rgba(255,255,255,0.2)75%,
 rgba(255,255,255,0)100%);
+}
+.A{
+position: absolute;
+top: 9%;
+left: 11%;
+}
+.E{
+position: absolute;
+top: 30%;
+left: 11%;
+}
+.R{
+position: absolute;
+top: 47%;
+left: 11%;
+}
+.G{
+position: absolute;
+top: 65%;
+left: 11%;
 }
 
