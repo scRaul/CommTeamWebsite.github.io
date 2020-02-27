@@ -86,19 +86,40 @@ position: absolute;
 top: 9%;
 left: 11%;
 }
+.a{
+position:absolute;
+top:10%;
+left: 15%;
+
+
+}
 .E{
 position: absolute;
 top: 30%;
 left: 11%;
+}
+.e{
+position:absolute;
+top:31%;
+left: 15%;
 }
 .R{
 position: absolute;
 top: 47%;
 left: 11%;
 }
+.r{
+position:absolute;
+top: 48%;
+left: 15%;}
 .G{
 position: absolute;
 top: 65%;
 left: 11%;
+}
+.g{
+position:absolute;
+top:66%;
+left: 15%;
 }
 
