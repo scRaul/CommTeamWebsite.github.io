@@ -11,13 +11,13 @@ margin:0;
 position: absolute;
 top:0%;
 left:0%;
-width: 100%;
+width: auto;
 height: 12%;
 background-color: red;
 }
 .Title{
 position: absolute;
-width: 100%;
+width: auto;
 height: 100%;
 text-align:center;
 padding: 20px;
@@ -27,7 +27,7 @@ text-shadow: 2px 2px black;
 }
 .subTitle{
 position: absolute;
-width: 100%;
+width: auto;
 height: 100%;
 left:45%;
 top:65px;
@@ -42,7 +42,7 @@ left:5%;
 
 }
 #logo{
-width: 100%;
+width: auto;
 height: 100%;
 }
 .Menu{
@@ -55,7 +55,7 @@ background-color: black;
 }
 table {
 top:0%;
-width: 100%;
+width: auto;
 height: 100%;
 text-align: center;
 }
@@ -63,7 +63,7 @@ button:hover{
 background-color: black;
 }
 button{
-width: 100%;
+width: auto;
 height: 100%;
 background-color:blue;
 border: 1px solid black;
@@ -71,7 +71,7 @@ color:white;
 }
 .Content{
 position: absolute;
-width: 100%;
+width: auto;
 height: 100%;
 left:0%;
 top:20%;
@@ -120,7 +120,7 @@ font-size:30px;
 .BOX{
 position:absolute;
 top:25%;
-width: 100%; 
+width: auto; 
 }
 .collapsible{
   top:30%;
@@ -129,7 +129,7 @@ width: 100%;
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: auto;
   height:10%;
   border: none;
   text-align: left;
