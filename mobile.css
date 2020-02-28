@@ -1,6 +1,6 @@
 html, body{
 position: absolute;
-width: auto%;
+width: 100%;
 height: 100%;
 background-color: blue;
 top:0;
@@ -11,14 +11,15 @@ margin:0;
 position: absolute;
 top:0%;
 left:0%;
-width: auto;
-height: 15%;
+width: 100%;
+height: 12%;
 background-color: red;
 }
 .Title{
 position: absolute;
 width: 100%;
 height: 100%;
+text-align:center;
 padding: 20px;
 font-size:40px;
 color:white;
@@ -26,7 +27,7 @@ text-shadow: 2px 2px black;
 }
 .subTitle{
 position: absolute;
-width: auto;
+width: 100%;
 height: 100%;
 left:45%;
 top:65px;
@@ -41,20 +42,20 @@ left:5%;
 
 }
 #logo{
-width: auto;
+width: 100%;
 height: 100%;
 }
 .Menu{
 position: absolute;
 width:100%;
 left:0;
-top: 15%;
+top: 12%;
 height: 8%;
 background-color: black;
 }
 table {
 top:0%;
-width: auto;
+width: 100%;
 height: 100%;
 text-align: center;
 }
@@ -62,7 +63,7 @@ button:hover{
 background-color: black;
 }
 button{
-width: auto;
+width: 100%;
 height: 100%;
 background-color:blue;
 border: 1px solid black;
@@ -70,7 +71,7 @@ color:white;
 }
 .Content{
 position: absolute;
-width: auto;
+width: 100%;
 height: 100%;
 left:0%;
 top:20%;
@@ -119,7 +120,7 @@ font-size:30px;
 .BOX{
 position:absolute;
 top:25%;
-width: auto; 
+width: 100%; 
 }
 .collapsible{
   top:30%;
@@ -128,7 +129,7 @@ width: auto;
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: auto;
+  width: 100%;
   height:10%;
   border: none;
   text-align: left;
