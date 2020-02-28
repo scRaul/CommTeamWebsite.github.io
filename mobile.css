@@ -150,13 +150,13 @@ width: 100%;
 }
 .col_1{
 display:inline-block;
-width:40%;
+width:50%;
 background-color:red;
 
 }
 .col_2{
 display:inline-block;
-width:30%;
+width:20%;
 background-color:red;
 
 }
