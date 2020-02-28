@@ -1,0 +1,170 @@
+html, body{
+position: absolute;
+width: 100%;
+height: 100%;
+background-color: blue;
+top:0;
+left:0;
+margin:0;
+}
+.Head{
+position: absolute;
+top:0%;
+left:0%;
+width: 100%;
+height: 12%;
+background-color: red;
+}
+.Title{
+position: absolute;
+width: 100%;
+height: 100%;
+text-align:center;
+padding: 20px;
+font-size:40px;
+color:white;
+text-shadow: 2px 2px black;
+}
+.subTitle{
+position: absolute;
+width: 100%;
+height: 100%;
+left:45%;
+top:65px;
+
+}
+.logo{
+position:absolute;
+top: 10%;
+width:10%;
+height: 80%;
+left:5%;
+
+}
+#logo{
+width: 100%;
+height: 100%;
+}
+.Menu{
+position: absolute;
+width:100%;
+left:0;
+top: 12%;
+height: 8%;
+background-color: black;
+}
+table {
+top:0%;
+width: 100%;
+height: 100%;
+text-align: center;
+}
+button:hover{
+background-color: black;
+}
+button{
+width: 100%;
+height: 100%;
+background-color:blue;
+border: 1px solid black;
+color:white;
+}
+.Content{
+position: absolute;
+width: 100%;
+height: 100%;
+left:0%;
+top:20%;
+background-color: blue;
+}
+.about{
+color:white;
+padding-left: 20%;
+padding-bottom: 5px;
+padding-top: 1px;
+
+margin:20px;
+}
+.about#A{
+background:  url("images/Anthony.JPG") no-repeat left;
+background-size: 20%;
+}
+.about#C{
+background: url("images/Carlos.JPG") no-repeat left;
+background-size: 20%;
+}
+.about#E{
+background: url("images/Edwin.jpeg") no-repeat left;
+background-size: 20%;
+}
+.about#G{
+background: url("images/Gio.png") no-repeat left;
+background-size: 20%;
+}
+.about#R{
+background: url("images/Raul.jpg") no-repeat left;
+background-size: 20%;
+}
+
+/*          RULES RULES RULES RULES RULES RULESRULES         */
+
+#Rules{
+position: absolute;
+left:10%;
+top:10%;
+font-size:30px;
+}
+
+/*          AGENDA AGENDA AGENDA         */
+
+.BOX{
+position:absolute;
+top:25%;
+width: 100%; 
+}
+.collapsible{
+  top:30%;
+  left:0%;
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  height:10%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover{
+  background-color: #555;
+}
+
+.content{
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+.col_1{
+display:inline-block;
+width:33%;
+background-color:red;
+
+}
+.col_2{
+display:inline-block;
+width:30%;
+background-color:red;
+
+}
+.col_3{
+display:inline-block;
+width:20%;
+background-color:red;
+}
+
+
+
