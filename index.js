@@ -1,3 +1,5 @@
+
+
 var coll = document.getElementsByClassName("collapsible");
 var i;
 
@@ -19,6 +21,8 @@ for (i = 0; i < coll.length; i++) {
 
 function scale(){
     let L = document.getElementById("CSS"); 
+    
+    
     var w = window.innerWidth
     || document.documentElement.clientWidth
     || document.body.clientWidth;
@@ -29,6 +33,8 @@ function scale(){
 
     if( h > w ){ L.href="mobile.css";}
     else{ L.href="index.css"}
+    
+    
 }
 scale();
 window.addEventListener("resize",scale);
