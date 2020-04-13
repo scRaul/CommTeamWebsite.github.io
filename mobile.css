@@ -229,7 +229,17 @@ font-size: 14px;
 }
 .Presentation{
 position:absolute;
-top: 100%;
+top: 90%;
+left: 5%;
+width: 90%;
+height: 50%;
+font-size:20px;
+color:white;
+
+}
+.PSA{
+position:absolute;
+top: 155%;
 left: 5%;
 width: 90%;
 height: 50%;
